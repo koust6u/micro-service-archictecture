@@ -1,0 +1,6 @@
+encrypt:
+    #key: koreajapanchianameriamexicopolandunitedofkingdomaficakonggo
+  key-store:
+    location: file:///C:\Users\koust\Desktop\micro-service-architecture\RSA\apiEncryptionKey.jks
+    password: test1234
+    alias: apiEncryptionKey

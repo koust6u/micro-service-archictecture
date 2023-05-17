@@ -1,0 +1,11 @@
+spring: 
+  datasource:
+    username: sa
+    password: '{cipher}AYCq15FIroREhQJabycglYfxuVUrWXhrjLz+6iRaOIBca0Qoox0/l1Rw0dF6tduGcymwsPCNkcKF4f8n83XSECbgIbQ/DkcaoV5WkuaOjZjU32lRxeArn4pvTo9E+R21P8nzkevWPU3VPaaBsgpKFn97EKV8nzRVT96Uaj9kG/zM/3VmVo8+gJyajXFZklA8Lbbbz7kkTQFWCosAWrk0nhd9lKsSnR84dU3IqDEq6T6q2Z9n1FoEaTqcGtHcA9IrcmVdC5khmM0wro2NcYOU7PWiR/ilHgdX+9dS0QUubURZeN8ZNJOpZx2U7euFeo0UaNV8/rw9O2C9o+8DDcaudTtUY/0y/SysTif31BIyb5VXN0N88y4cswYiub952o+S5mVgzNyNAHfA15i+qg4bebP4YBEsrgNXH2530IWNc/iVIipG0wFofea8Bzbrp3TmX3Nn2qUjOtJW7lg3fYnhvp9IVJ5M9ECbBhFeCOPv03y28IZcJpt2OAbokLn0S1hti1ztUJbEjwFQ/we8ck7kvGuTp0oh7xsH4uL17jwzXQc5rQ=='
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+
+order_service:
+  url: http://ORDER-SERVICE/order-service/%s/orders
+  exception: 
+    orders_is_empty: User's orders is emptysss

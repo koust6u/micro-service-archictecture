@@ -1,0 +1,15 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: config-service
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/koust6u/micro-service-archictecture
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,busrefresh,refresh
